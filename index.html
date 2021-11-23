@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APS - POTA</title>
+</head>
+
+<body>
+    <div class="text-center"> 
+        <br>
+        <h1>APS - POTA</h1>
+        <p>Alunos:<br>
+            Luiz Gabriel dos Reis Nunes - 21266791 <br>
+            Lara Romaneli Cruso - 21254200
+        </p>
+    </div>
+
+    <form class="text-center" method="get">
+        <h4>Escolha o tamanho do Vetor:</h4>
+        <div class="form-check">
+            <input class="form-check-input" name="tamanho" type="radio" value="5" id="tamanho" required>
+            <label class="form-check-label" for="5">
+                5
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" name="tamanho" type="radio" value="10" id="tamanho" required>
+            <label class="form-check-label" for="10">
+                10
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" name="tamanho" type="radio" value="50" id="tamanho" required>
+            <label class="form-check-label" for="50">
+                50
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" name="tamanho" type="radio" value="100" id="tamanho" required>
+            <label class="form-check-label" for="100">
+               100
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" name="tamanho" type="radio" value="1000" id="tamanho" required>
+            <label class="form-check-label" for="1000">
+                1000
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" name="tamanho" type="radio" value="10000" id="tamanho" required>
+            <label class="form-check-label" for="10000">
+                10000
+            </label>
+        </div>
+        <br>
+        <button type="submit" class="btn btn-success">Enviar</button>
+    </form>
+
+    <div id="resultado">
+        <br><br>
+        <h2 class="text-center">Escolha um tamanho para o vetor...</h2>
+    </div>
+
+    <script type="text/javascript" src="./algoritmos/bubbleSort.js"></script>
+    <script type="text/javascript" src="./algoritmos/selectionSort.js"></script>
+    <script type="text/javascript" src="./algoritmos/insertionSort.js"></script>
+    <script type="text/javascript" src="./algoritmos/heapSort.js"></script>
+    <script type="text/javascript" src="./algoritmos/mergeSort.js"></script>
+    <script type="text/javascript" src="./algoritmos/quickSort.js"></script>
+    <script type="text/javascript" src="./algoritmos/countSort.js"></script>
+    <script type="text/javascript" src="./algoritmos/radixSort.js"></script>
+    <script type="text/javascript" src="./index.js"></script>
+</body>
+
+</html>
